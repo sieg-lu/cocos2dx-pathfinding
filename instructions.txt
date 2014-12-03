@@ -1,0 +1,10 @@
+Instructions:
+————
+Take this cocos2dx project which is built against cocos2d-x-3.0beta2
+(also in the zip file) and make the changes outlined below (feel free to modify, refactor, or add whatever classes you need). You can develop your solution on a mac using the xcode project or on windows using the visual studio solution.
+
+1. Add a touch handler to detect touches on a node in the scene. Once a node is tapped the character should move to that node.
+
+2. Add some path finding so the character does not move across the nodes which are occupied by a table.
+
+2. Add a button which scrambles the position of the tables to a random placement layout. You should ensure that when a new table layout is generated, there are no areas of the level which are inaccessible to the character.
